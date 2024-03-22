@@ -1,0 +1,54 @@
+.App {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.todo, .inProgress, .done {
+  width: 100%;
+  max-width: 400px; 
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.todo {
+  background-color: #e6e6fa; 
+}
+
+.inProgress {
+  background-color: #add8e6; 
+}
+
+.done {
+  background-color: #90ee90; 
+}
+
+.column h2 {
+  color: #800080; 
+}
